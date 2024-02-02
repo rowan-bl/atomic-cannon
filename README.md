@@ -1,2 +1,2 @@
 ## atomic-cannon
-#atomic cannon console game
+# atomic cannon console game
