@@ -30,7 +30,7 @@ while (!int.TryParse(Console.ReadLine(), out velocity)|| velocity < 1 || velocit
 }
 Console.WriteLine();
 Console.Write("What angle would you like to use on your shot (in degrees): ");
-while (!int.TryParse(Console.ReadLine(), out angle)|| angle < 0 || angle > 90)
+while (!int.TryParse(Console.ReadLine(), out angle)|| angle < 1 || angle > 89)
 {
     Console.WriteLine("Enter a valid angle between 1-89: ");
 }
