@@ -1,2 +1,2 @@
-# atomic-cannon
-atomic cannon game test
+## atomic-cannon
+#atomic cannon console game
