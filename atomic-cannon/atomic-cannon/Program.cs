@@ -90,7 +90,23 @@ do
         Console.ReadLine();
         break;
     }
+    
+    if (i == 4)
+    {
+        Console.WriteLine("You have failed to hit the target. Press any key to restart the game.");
+        Console.ReadKey();
 
+        velocityList.Clear();
+        angleList.Clear();
+        diffList.Clear();
+
+        velocityList.AddRange(new List<string> { "?", "?", "?", "?", "?" });
+        angleList.AddRange(new List<string> { "?", "?", "?", "?", "?" });
+        diffList.AddRange(new List<string> { "?", "?", "?", "?", "?" });
+
+        i = 0;
+        continue;
+    }
     Console.Write("Press any key to reload the cannon...");
     Console.ReadKey();
 
